@@ -1,0 +1,23 @@
+[33mcommit 0c64f93262a86bb402ed8a316eccf0efa6734547[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: DamianBlock <damianfrt25@gmail.com>
+Date:   Mon Nov 20 14:21:43 2023 -0300
+
+    Entity manager
+
+[33mcommit 9a8d1061fb8e156998d634fec4c33522deced188[m
+Author: DamianBlock <damianfrt25@gmail.com>
+Date:   Mon Nov 20 05:06:32 2023 -0300
+
+    Entity manager
+
+[33mcommit 65381bb14442d3461601ff8d704abb0583ce9737[m
+Author: DamianBlock <damianfrt25@gmail.com>
+Date:   Mon Nov 20 04:52:57 2023 -0300
+
+    Creando clases
+
+[33mcommit 4fa5c51c6fe2ec4b60f8ebcfe70086a6dac3c354[m
+Author: DamianBlock <damianfrt25@gmail.com>
+Date:   Mon Nov 20 04:52:33 2023 -0300
+
+    Creando clases
