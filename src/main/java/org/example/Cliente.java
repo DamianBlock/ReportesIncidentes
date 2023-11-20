@@ -6,8 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.awt.*;
-import java.time.LocalDate;
 import java.util.Date;
 
 
@@ -38,9 +36,5 @@ public class Cliente {
     @Column(name ="Fecha_Nacimiento")
     private Date fechaNacimiento;
 
-    @Column(name ="fecha_alta")
-    private LocalDate fechaAlta;
-    @Column(name ="fecha_baja")
-    private LocalDate fechaBaja;
 
 }
