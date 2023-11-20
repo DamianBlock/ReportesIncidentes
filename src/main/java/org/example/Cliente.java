@@ -22,17 +22,22 @@ public class Cliente {
     @Column(name = "idCliente")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int idCliente;
+
     @Column(name = "especialidad")
     private String especialidad;
 
     @Column(name ="email")
     private String email;
+
     @Column(name ="telefono")
     private double telefono;
+
     @Column(name ="nombre")
     private String nombre;
+
     @Column(name ="apellido")
     private String apellido;
+
     @Column(name ="Fecha_Nacimiento")
     private Date fechaNacimiento;
 
