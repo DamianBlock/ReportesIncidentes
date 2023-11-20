@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.awt.*;
 
 @Data
 @NoArgsConstructor
@@ -20,6 +19,7 @@ public class Operador {
     @Column(name = "idOPERADOR")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int idOPERADOR;
+
     @Column(name = "nombre")
     private String nombre;
 
@@ -30,6 +30,7 @@ public class Operador {
     private String domicilio;
     @Column(name ="telefono")
     private double telefono;
+
 
 
     @OneToMany
