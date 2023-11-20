@@ -1,4 +1,5 @@
 package org.example;
+
 import javax.persistence.Entity;
 import javax.persistence.*;
 import lombok.AllArgsConstructor;
@@ -14,12 +15,15 @@ import java.awt.*;
 
 @Entity
 @Table(name="operador")
-public class Operador {
+public class Tecnico {
 
     @Id
-    @Column(name = "idOPERADOR")
+    @Column(name = "idTECNICO")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int idOPERADOR;
+    private int idTecnico;
+
+    @Column(name = "cuit")
+    private double cuit;
     @Column(name = "nombre")
     private String nombre;
 

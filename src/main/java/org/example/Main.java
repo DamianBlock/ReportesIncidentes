@@ -17,8 +17,8 @@ public class Main {
             EntityManager em = getEntityManager();
             EntityTransaction tx = em.getTransaction();
             tx.begin();
-            Operador empleado = new Operador(); //← Seteamos todos los atributos
-            em.persist(empleado);
+            Operador operador = new Operador(); //← Seteamos todos los atributos
+            em.persist(operador);
             tx.commit();
 
         }
