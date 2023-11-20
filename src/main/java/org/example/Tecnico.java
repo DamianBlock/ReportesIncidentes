@@ -25,6 +25,7 @@ public class Tecnico {
 
     @Column(name = "cuit")
     private double cuit;
+
     @Column(name = "nombre")
     private String nombre;
 
@@ -33,11 +34,13 @@ public class Tecnico {
 
     @Column(name ="domicilio")
     private String domicilio;
+
     @Column(name ="telefono")
     private double telefono;
 
     @Column(name ="fecha_alta")
     private LocalDate fechaAlta;
+
     @Column(name ="fecha_baja")
     private LocalDate fechaBaja;
 
