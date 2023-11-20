@@ -6,7 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.awt.*;
+
+import java.time.LocalDate;
 
 @Data
 @NoArgsConstructor
@@ -34,6 +35,11 @@ public class Tecnico {
     private String domicilio;
     @Column(name ="telefono")
     private double telefono;
+
+    @Column(name ="fecha_alta")
+    private LocalDate fechaAlta;
+    @Column(name ="fecha_baja")
+    private LocalDate fechaBaja;
 
 
     @OneToMany
