@@ -1,4 +1,4 @@
-package Integrador;
+package org.example;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,6 +20,8 @@ public class Tipo_Incidente {
 
     @Column(name = "Tipo/Nombre")
     private String tipo_nombre;
+
+
 
 
 
