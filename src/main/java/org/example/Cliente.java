@@ -23,9 +23,6 @@ public class Cliente {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int idCliente;
 
-    @Column(name = "especialidad")
-    private String especialidad;
-
     @Column(name ="email")
     private String email;
 
@@ -40,6 +37,9 @@ public class Cliente {
 
     @Column(name ="Fecha_Nacimiento")
     private Date fechaNacimiento;
+
+    @Column(name ="cuit")
+    private Date cuit;
 
 
 }
