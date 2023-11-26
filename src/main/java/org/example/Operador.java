@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 
 @Data
 @NoArgsConstructor
@@ -18,12 +20,12 @@ public class Operador {
     @Id
     @Column(name = "idOPERADOR")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int idOPERADOR;
+    private int idOperador;
 
-    @Column(name = "nombre")
+    @Column(name = "Nombre")
     private String nombre;
 
-    @Column(name = "apellido")
+    @Column(name = "Apellido")
     private String apellido;
 
     @Column(name ="domicilio")
@@ -35,7 +37,7 @@ public class Operador {
 
     @OneToMany
     @JoinColumn(name = "OPERADOR_idOPERADOR", referencedColumnName = "idOPERADOR")
-    private Incidente incidentes;
+    private List<Incidente> incidentes;
 
 
 }

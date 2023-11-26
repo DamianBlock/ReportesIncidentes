@@ -18,7 +18,7 @@ import java.util.Date;
 @Table(name="incidente")
 public class Incidente {
     @Id
-    @Column(name = "idIncidente")
+    @Column(name = "idINCIDENTE")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idIncidente;
 
@@ -41,5 +41,7 @@ public class Incidente {
     @ManyToOne
     @JoinColumn(name = "CLIENTE_idCliente", referencedColumnName = "idCliente")
     private Cliente cliente;
+
+
 
 }

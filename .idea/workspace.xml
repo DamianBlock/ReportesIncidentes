@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65a0ceed-de3c-4527-85b0-4360ff8e2e3d" name="Changes" comment="Correciones">
+    <list default="true" id="65a0ceed-de3c-4527-85b0-4360ff8e2e3d" name="Changes" comment="nuevas Correciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AreaComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AreaComercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Incidente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Operador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RRHH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RRHH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TecEspecialidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TecEspecialidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tecnico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Argentina Programa 4.0 Testing/2° Etapa - Java intermedio/Primera Entrega/RerpoteIncidentes/src/main/resources/META-INF",
+    "last_opened_file_path": "D:/Argentina Programa 4.0 Testing/2° Etapa - Java intermedio/Primera Entrega/RerpoteIncidentes",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -208,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700938704065</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="nuevas Correciones">
+      <created>1700939382840</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700939382840</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +255,7 @@
     <MESSAGE value="codigo limpio" />
     <MESSAGE value="Nuevas clases" />
     <MESSAGE value="Correciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correciones" />
+    <MESSAGE value="nuevas Correciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevas Correciones" />
   </component>
 </project>

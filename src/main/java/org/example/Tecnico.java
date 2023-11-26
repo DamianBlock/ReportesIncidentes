@@ -1,5 +1,4 @@
 package org.example;
-
 import javax.persistence.Entity;
 import javax.persistence.*;
 import lombok.AllArgsConstructor;
@@ -15,7 +14,7 @@ import java.time.LocalDate;
 
 
 @Entity
-@Table(name="operador")
+@Table(name="tecnico")
 public class Tecnico {
 
     @Id

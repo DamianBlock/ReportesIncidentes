@@ -9,15 +9,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "Tec_Especialidades")
+@Table(name = "especialidad")
 
 public class TecEspecialidad {
     @Id
-    @Column(name = "idTec_Especialidades")
+    @Column(name = "idEspecialidad")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Tec_Especialidades;
 
-    @Column(name = "Tipo/Nombre")
+    @Column(name = "nombre_Epecialidad")
     private String nombreDeLaEspecialidad;
 
     @ManyToOne
